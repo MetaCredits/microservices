@@ -1,3 +1,4 @@
+require('dotenv').config({path: __dirname + '/secret.env'})
 const http = require('http');
 const { dappSigner } = require('./service')
 
